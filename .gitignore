@@ -1,0 +1,16 @@
+# Ignore my custom setups
+.idea
+/.project
+/.buildpath
+/.vscode
+/.settings/
+sites/all/modules/debug/mytesting
+/tmp/
+sites/all/vendor/
+
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
